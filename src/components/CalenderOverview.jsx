@@ -1,9 +1,10 @@
 import React from 'react'
+import "../styles/CalendarOverview.css"
 
-const CalenderOverview = () => {
+const CalendarOverview = () => {
   return (
-    <div>CalenderOverview</div>
+    <div className='calendarOverview'>CalendarOverview</div>
   )
 }
 
-export default CalenderOverview
+export default CalendarOverview

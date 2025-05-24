@@ -2,7 +2,7 @@
 import './App.css'
 import Sidebar from './components/Sidebar'
 import DashboardOverview from './components/DashboardOverview'
-import CalenderOverview from './components/CalenderOverview'
+import CalendarOverview from './components/CalenderOverview'
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
     <div className='App'>
       <Sidebar />
       <DashboardOverview />
-      <CalenderOverview />
+      <CalendarOverview />
     </div>
 
 

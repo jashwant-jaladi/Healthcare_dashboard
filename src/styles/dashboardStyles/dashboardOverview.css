@@ -1,0 +1,10 @@
+.dashboard
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+.overview
+{
+    width: 50%;
+}

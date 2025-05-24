@@ -1,0 +1,64 @@
+.image-container {
+    background-color: #F6FAFF;
+    margin-left: 70px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: relative; 
+}
+
+.anatomy-image {
+    width: auto;
+    height: 500px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 350px;
+    top: 10px;  
+    font-size: 24px;
+    z-index: 10;
+    
+}
+.heart
+{
+    position: absolute;
+    display: flex;
+    width: 175px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3433AE;
+    color: white;
+    border-radius: 20px;
+    gap: 10px; 
+    white-space: nowrap; 
+    left: 265px;
+    top: 100px;
+
+}
+
+.leg
+{
+     position: absolute;
+    display: flex;
+    width: 175px;
+    justify-content: center;
+    align-items: center;
+    background-color: #03E0F0;
+    color: blue;
+    border-radius: 20px;
+    gap: 10px; 
+    white-space: nowrap; 
+    bottom: 115px;
+    right: 245px;
+
+    
+}
+
+.legicon
+{
+    width: 25px;
+    height: 25px;
+}
