@@ -1,0 +1,10 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: poppins, sans-serif;  
+}
+body{
+    background-color: #E6EFFA;
+    color: #333;
+}
