@@ -1,0 +1,25 @@
+.activity-feed-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 20px;
+    color: #bdc3c5;
+    font-weight: bold;
+    font-size: small;
+}
+.activity-feed
+{
+    background-color: #F7FBFF;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.activity-title
+{
+    font-size: 20px;
+    color: #2c3e50;
+    font-size: larger;
+}
