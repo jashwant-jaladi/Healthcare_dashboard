@@ -1,0 +1,17 @@
+.tablet-header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tablet-text
+{
+    text-align: justify;
+}
+
+.title-tablet
+{
+    font-size: large;
+}
+
