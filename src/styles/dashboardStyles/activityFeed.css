@@ -15,6 +15,7 @@
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 30px;
+    height: 20vh;
 }
 
 .activity-title
@@ -22,4 +23,15 @@
     font-size: 20px;
     color: #2c3e50;
     font-size: larger;
+}
+
+.week
+{
+    display: flex;
+    justify-content: space-around;
+    color: #bdc3c5;
+    margin: auto;
+    padding: 20px;
+    list-style: none;
+    
 }

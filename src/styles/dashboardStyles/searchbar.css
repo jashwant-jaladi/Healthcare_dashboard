@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     padding: 30px 30px 0 30px;
+    position: relative;
 }
 
 input{
@@ -15,14 +16,13 @@ input{
     border-radius: 10px;
     border-color: #E6EAED;
     border: 2px solid #E6EAED;
+    
 }
 
-.search-icon
+.searchme-icon
 {
     position: relative;
     left: 30px;
-    
-
 }
 
 .bell-icon

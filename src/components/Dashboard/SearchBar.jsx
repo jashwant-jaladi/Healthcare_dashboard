@@ -11,9 +11,9 @@ const SearchBar = () => {
   return (
     <>
     <div className='searchbar-container'>
-      <FaSearch className='input-icon search-icon' size={20} color='#6E6F83'/>
+      <FaSearch className='searchme-icon' size={20} color='#6E6F83'/>
       <input name='Search' placeholder='Search' />
-      <HiMiniBell className='input-icon bell-icon' size={25} color='#3D33A1' />
+      <HiMiniBell className='bell-icon' size={25} color='#3D33A1' />
     </div>
     <div className='dashboard-container'>
     <h4 className='dashboard-text'>Dashboard</h4>

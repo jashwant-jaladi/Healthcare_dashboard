@@ -10,6 +10,17 @@ const ActivityFeed = () => {
       <p>3 appointments on this week</p>
       </div>
       <Bar />
+      <div >
+       <ul className='week'>
+        <li>Mon</li>
+        <li>Tues</li>
+        <li>Wed</li>
+        <li>Thurs</li>
+        <li>Fri</li>
+        <li>Sat</li>
+        <li>Sun</li>
+       </ul>
+      </div>
     </div>
   )
 }

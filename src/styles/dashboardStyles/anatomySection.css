@@ -7,11 +7,12 @@
     align-items: center;
     border-radius: 20px;
     position: relative; 
+    height: 50vh;
 }
 
 .anatomy-image {
     width: auto;
-    height: 500px;
+    height: 420px;
 }
 
 .search-icon {

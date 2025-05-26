@@ -1,0 +1,24 @@
+.calendarHeader-container {
+ display: flex;
+ padding: 30px 50px 0 30px;
+ justify-content: flex-end;
+ gap: 20px;
+}
+
+button{
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  border: none;
+}
+
+.avatar
+{
+    background-color: #00DEE2;
+}
+
+.add
+{
+    background-color: #3930AB;
+}
+

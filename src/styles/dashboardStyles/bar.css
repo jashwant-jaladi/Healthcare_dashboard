@@ -1,0 +1,92 @@
+.bar-container
+{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.first-bar
+{
+    height: 9vh;
+    width: 5px;
+    border-radius: 25px;
+    margin: -5px 0 0 20px;
+
+}
+
+.second-bar
+{
+    height: 4vh;
+    width: 5px;
+    border-radius: 25px;
+    margin: 0 0 0 10px;
+    display: flex;
+    margin-top: 1vh;
+    
+}
+
+.third-bar-container
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.third-one
+{
+    height: 1.5vh;
+    width: 5px;
+    border-radius: 25px;
+    margin: 0 0 0 10px;
+    display: flex;
+    margin-top: 1vh;
+}
+.third-two
+{
+    height: 1.5vh;
+    width: 5px;
+    border-radius: 25px;
+    margin: 0 0 0 10px;
+    display: flex;
+    margin-top: 1vh;
+}
+
+.fourth-bar
+{
+    height: 3vh;
+    width: 5px;
+    border-radius: 25px;
+    margin: 0 0 0 10px;
+    display: flex;
+    margin-top: 5vh;
+}
+.bar-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.first-bar-container
+{
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+.first-bar-one
+{
+    height: 4vh;
+    width: 5px;
+    border-radius: 25px;
+    margin: -5px 0 0 20px;
+}
+
+.first-bar-two
+{
+    height: 4vh;
+    width: 5px;
+    border-radius: 25px;
+    margin: 5px 0 0 20px;
+}

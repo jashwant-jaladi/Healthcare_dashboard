@@ -1,6 +1,6 @@
 .health-status-card {
   width: 55%;
-  height: auto;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;

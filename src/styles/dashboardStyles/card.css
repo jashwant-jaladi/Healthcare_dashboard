@@ -1,13 +1,13 @@
 img
 {
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
+    padding-top: 5px ;
 }
 
 .card {
   width: 60%;
-  height: 15vh;
-  font-size: larger;
+  font-size: large;
   display: flex;
   flex-direction: column;
   justify-content: center;      
@@ -34,6 +34,7 @@ img
     color: #b8bec7;
     font-size: small;
     font-weight: bold;
+    margin-top: -5px;
 }
 
 .name

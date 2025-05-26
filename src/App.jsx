@@ -2,7 +2,7 @@
 import './App.css'
 import Sidebar from './components/Sidebar'
 import DashboardOverview from './components/DashboardOverview'
-import CalendarOverview from './components/CalenderOverview'
+import CalendarOverview from './components/CalendarOverview/CalenderOverview'
 
 function App() {
 
