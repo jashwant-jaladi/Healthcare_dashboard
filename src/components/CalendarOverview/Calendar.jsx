@@ -1,32 +1,36 @@
 import React from 'react'
 import "../../styles/calendarStyles/calendar.css"
-import { TiArrowLeftThick } from "react-icons/ti";
-import { TiArrowRightThick } from "react-icons/ti";
+import { TiArrowLeftThick, TiArrowRightThick } from "react-icons/ti";
 import calendarData from '../../data/calendar';
 
 const Calendar = () => {
   return (
     <div className='calendarContainer'>
       <div className='calendarText'>
-      <h4 className='month'>October 2021</h4>
-      <TiArrowLeftThick />
-      <TiArrowRightThick />
+        <h4 className='month'>October 2021</h4>
+        <TiArrowLeftThick />
+        <TiArrowRightThick />
       </div>
-      <div className='calendarDaysContainer'> 
-             {calendarData.map((data,index)=>
-      (<div className='calendarDays' key={index}>
-        <li className={data.class}>{data.column1}</li>
-        <li className={data.class} id={data.cellClass}>{data.column2}</li>
-        <li className={data.class}>{data.column3}</li>
-        <li className={data.class}>{data.column4}</li>
-        <li className={data.class}>{data.column5}</li>
-        <li className={data.class}>{data.column6}</li>
-        <li className={data.class}>{data.column7}</li>
-      </div>))}
-        </div>
 
+      <div className='calendarDaysContainer'>
+        {calendarData.map((row, rowIndex) => (
+          <div className='calendarRow' key={rowIndex}>
+            {row.map((cell, colIndex) => (
+             <div
+  key={colIndex}
+  className={`calendarCell row-${rowIndex} col-${colIndex} ${
+    rowIndex === 3 && colIndex === 3 || rowIndex===2 && colIndex===5 || rowIndex===2 && colIndex===6 ? 'highlightCell hasDot' : ''
+  }`}
+>
+  {cell}
+</div>
+
+            ))}
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
 
-export default Calendar
+export default Calendar;

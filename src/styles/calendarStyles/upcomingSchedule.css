@@ -22,14 +22,15 @@
 
 .upcoming-schedule
 {
-    padding: 30px 30px 0 30px;
+    padding: 50px 30px 0px 30px;
 }
 
 .appointment-days
 {
     color: #8A8A98;
     font-size: medium;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 
