@@ -4,7 +4,7 @@
     align-items: flex-start;    
     background-color: #F4FAFF;
     border-radius: 20px 0 0 20px;
-    padding: 20px 0 20px 60px;
+    padding: 50px 0 20px 60px;
     width: 10%;
     
     
@@ -16,7 +16,10 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    color:#838C97
+    color:#838C97;
+    margin-bottom: 35px;
+    font-size: larger;
+    
 
 }
 
@@ -25,13 +28,18 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    color: #838C97
+    color: #838C97;
+    margin-bottom: 35px;
+    font-size: larger;
 
 }
 
 .title-health
 {
     color: #36C5CB;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .title-care
@@ -41,8 +49,11 @@
 
 .general,.tools
 {
-    color: #838C97
+    color: #b2b8c0;
+    font-size:medium;
+    margin-bottom: 25px;
 }
+
 .dashboard-highlight {
   color: #171A5B;
 }
@@ -56,5 +67,5 @@
 }
 
 .tools{
-    margin-top: 70  px;
+    margin-top: 50px;
 }
