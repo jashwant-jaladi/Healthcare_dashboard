@@ -1,4 +1,4 @@
-.searchbar-container
+    .searchbar-container
 {
     display: flex;
     flex-direction: row;
@@ -33,7 +33,7 @@ input{
 
 .dashboard-container
 {
-    padding: 0px 50px 0 50px;
+    padding: 50px 50px 0 50px;
     display: flex;
     justify-content: space-between;
 
@@ -45,6 +45,8 @@ input{
     justify-content: center;
     align-items: center;
     gap: 3px;
+    font-size: small;
+    font-weight: bold;
 }
 
 .dashboard-text

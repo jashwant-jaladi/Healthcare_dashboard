@@ -2,11 +2,10 @@ img
 {
     width: 50px;
     height: 50px;
-    padding-top: 5px ;
 }
 
 .card {
-  width: 60%;
+  width: 50%;
   font-size: large;
   display: flex;
   flex-direction: column;
@@ -15,16 +14,18 @@ img
   background-color: #F7FBFF;
   margin: 10px;
   border-radius: 20px;
-  padding: 16px 20px;
+  padding: 16px 0px 18px 25px;
   gap: 8px;
   overflow: hidden;
+  height: 100%;
 }
 
 
 #img-container {
   display: flex;
   gap: 12px;
-  width: 100%;         
+  width: 100%; 
+  padding-bottom: 5px;        
 }
 
 .date
@@ -34,11 +35,15 @@ img
     color: #b8bec7;
     font-size: small;
     font-weight: bold;
-    margin-top: -5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+
 }
 
 .name
 {
     color: #463E6B;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
