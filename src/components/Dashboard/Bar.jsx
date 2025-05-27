@@ -1,13 +1,13 @@
 import React from 'react'
 import "../../styles/dashboardStyles/bar.css"
-import bar_design from '../../data/bar.js'
 
-const Bar = () => {
+
+const Bar = ({data}) => {
   return (
     <>
       
         <div className='bar-container' >
-{bar_design.map((bar, index) => (
+{data.map((bar, index) => (
         <div key={index} className="bar-section">
           {bar.split?
           <div className='firstbar-container'>

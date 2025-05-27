@@ -10,9 +10,6 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { CiSettings } from "react-icons/ci";
 
 
-
-
-
 const Sidebar = () => {
 
   const sidebarData = [

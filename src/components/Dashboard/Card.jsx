@@ -1,12 +1,11 @@
-import React from 'react';
-import healthCard from '../../data/healthCard';
+
 import '../../styles/dashboardStyles/card.css'; 
 import ProgressBar from './ProgressBar'; 
 
-const Card = () => {
+const Card = ({data}) => {
   return (
     <>
-      {healthCard.map((card, index) => (
+      {data.map((card, index) => (
         <div key={index} className="card" >
           <div id='img-container'>
           <img src={card.image} alt="health icon" />

@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../styles/dashboardStyles/activityFeed.css'
 import Bar from './Bar'
+import bar_design from '../../data/bar.js'
 
 const ActivityFeed = () => {
   return (
@@ -9,7 +10,7 @@ const ActivityFeed = () => {
       <h3 className='activity-title'>Activity</h3>
       <p>3 appointments on this week</p>
       </div>
-      <Bar />
+      <Bar data={bar_design}/>
       <div >
        <ul className='week'>
         <li>Mon</li>

@@ -1,15 +1,15 @@
 import React from 'react'
 import Tablet from "./Tablet"
 import "../../styles/calendarStyles/upcomingSchedule.css"
-import { upcomingData_Sat, upcomingData_Thurs } from '../../data/upcomingSchedule'
 
-const UpcomingSchedule = () => {
+
+const UpcomingSchedule = ({thursData, satData}) => {
   return (
     <div className='upcoming-schedule'>
       <h1 className='upcoming-header'>The Upcoming Schedule</h1>
       <h4 className='appointment-days'> On Thursday</h4>
       <div className='thursday-appointment'>
-      {upcomingData_Thurs.map((appointment,index) => (
+      {thursData.map((appointment,index) => (
         <div className={appointment.order} key={index}>
         <Tablet
           
@@ -23,7 +23,7 @@ const UpcomingSchedule = () => {
       </div>
       <h4 className='appointment-days'>On Saturday</h4>
       <div className='saturday-appointment'>
-      {upcomingData_Sat.map((appointment, index) => (
+      {satData.map((appointment, index) => (
         <div className={appointment.order} key={index}>
         <Tablet
           

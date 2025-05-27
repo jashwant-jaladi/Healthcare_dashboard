@@ -1,13 +1,12 @@
-import React from 'react'
 import Tablet from './Tablet'
 import "../../styles/calendarStyles/appointmentsContainer.css"
-import appointment from '../../data/appointment' 
 
-const Appointments = () => {
+
+const Appointments = ({data}) => {
   return (
     <>
     <div className='appointments-container'>
-      {appointment.map((item, index) => (
+      {data.map((item, index) => (
         <div  key={index} className={item.order}>
           <Tablet 
           title={item.title}

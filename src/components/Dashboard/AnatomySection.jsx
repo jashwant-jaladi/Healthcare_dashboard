@@ -10,13 +10,13 @@ const AnatomySection = () => {
     
     <div className='image-container'>
       <FaSearchPlus className='search-icon' color='#8E9499'/>
-      <img src='public/vecteezy_human-body-muscle-anatomy-illustration-on-transparent_49886063.png' className='anatomy-image'/>
+      <img src='public/vecteezy_human-body-muscle-anatomy-illustration-on-transparent_49886063.png' alt="human-anatomy" className='anatomy-image'/>
       <div className='heart'>
         <FaHeart size={20} color='red'/>
         <p>Healthly Heart</p>
       </div>
        <div className='leg'>
-        <img src="public/leg.png" className='legicon'/>
+        <img src="public/leg.png" alt="leg"className='legicon'/>
         <p>Healthly Leg</p>
       </div>
       <div>

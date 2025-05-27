@@ -1,9 +1,9 @@
 import React from 'react'
-import SearchBar from './Dashboard/SearchBar'
-import AnatomySection from './Dashboard/AnatomySection'
-import ActivityFeed from './Dashboard/ActivityFeed'
-import HealthStatusCard from './Dashboard/HealthStatusCard'
-import "../styles/dashboardStyles/dashboardOverview.css"
+import SearchBar from './SearchBar'
+import AnatomySection from './AnatomySection'
+import ActivityFeed from './ActivityFeed'
+import HealthStatusCard from './HealthStatusCard'
+import "../../styles/dashboardStyles/dashboardOverview.css"
 
 const DashboardOverview = () => {
   return (
