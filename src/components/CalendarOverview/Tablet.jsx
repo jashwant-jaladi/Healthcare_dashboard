@@ -6,7 +6,7 @@ const Tablet = ({title,image,time,name}) => {
     <div>
         <div className='tablet-header'>
             <h2 className='title-tablet'>{title}</h2>
-            <img src={image}/>
+            <img src={image} className='tablet-image'/>
         </div>
         <p className='tablet-text'>{time}</p>
         <p className='tablet-text'>{name}</p>

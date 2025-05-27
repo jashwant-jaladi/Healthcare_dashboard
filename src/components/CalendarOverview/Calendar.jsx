@@ -12,7 +12,8 @@ const Calendar = () => {
       <TiArrowLeftThick />
       <TiArrowRightThick />
       </div>
-      {calendarData.map((data,index)=>
+      <div className='calendarDaysContainer'> 
+             {calendarData.map((data,index)=>
       (<div className='calendarDays' key={index}>
         <li className={data.class}>{data.column1}</li>
         <li className={data.class} id={data.cellClass}>{data.column2}</li>
@@ -22,6 +23,7 @@ const Calendar = () => {
         <li className={data.class}>{data.column6}</li>
         <li className={data.class}>{data.column7}</li>
       </div>))}
+        </div>
 
     </div>
   )

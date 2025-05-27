@@ -20,7 +20,7 @@ const upcomingData_Sat=[
           {
         order: "Saturday-1",
         title : "Cardiologist",
-        image : "public/heart.jpg",
+        image : "public/heart.png",
         time: "12:00 AM",   
     },
     {

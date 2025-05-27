@@ -9,7 +9,7 @@ const appointment=[
     {
         order: "tablet-2",
         title : "Physiotherapy Appointment",
-        image : "public/flexarm.jpeg",
+        image : "public/PngItem_202737.png",
         time: "11:00 - 12:00",
         name: "Dr. Kevin Djones"  
     }
