@@ -36,3 +36,12 @@
     list-style: none;
     
 }
+
+
+@media (max-width : 430px)
+{
+    .activity-feed
+    {
+        width: 90%;
+    }
+}

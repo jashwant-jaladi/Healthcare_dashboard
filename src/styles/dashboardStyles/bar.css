@@ -90,3 +90,54 @@
     border-radius: 25px;
     margin: 5px 0 0 20px;
 }
+
+@media (max-width: 430px) {
+  .bar-container {
+    transform: scale(0.75);
+    transform-origin: top ;
+    width: 100%;
+    padding: 0;
+    
+    overflow: hidden; 
+    display: flex;
+  justify-content: space-evenly;
+  gap: 12px;
+  }
+  .first-bar,
+  .second-bar,
+  .first-bar-one,
+  .first-bar-two,
+  .third-one,
+  .third-two,
+  .fourth-bar {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .third-bar-container,
+  .first-bar-container {
+    margin-top: 8px;
+  }
+
+  .bar-section {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+  }
+
+ 
+  .first-bar,
+  .second-bar,
+  .first-bar-one,
+  .first-bar-two,
+  .third-one,
+  .third-two,
+  .fourth-bar {
+    height: 2.5vh;
+  }
+
+  
+  .bar-container * {
+    font-size: 12px;
+  }
+}
