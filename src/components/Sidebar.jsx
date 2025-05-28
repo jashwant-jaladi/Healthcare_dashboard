@@ -1,5 +1,3 @@
-import React from 'react'
-import "../styles/sidebar.css"
 import { MdDashboard } from "react-icons/md";
 import { LuArrowUpDown } from "react-icons/lu";
 import { SlCalender } from "react-icons/sl";
