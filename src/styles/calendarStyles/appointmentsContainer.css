@@ -36,3 +36,18 @@
         flex-direction: column;
     }
 }
+
+@media (min-width : 768px) and (max-width : 1024px)
+{
+    .appointments-container
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .tablet-1
+    {
+        padding-bottom:0 ;
+        height: 7vh;
+    }
+}

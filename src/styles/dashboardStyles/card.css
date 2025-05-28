@@ -56,3 +56,13 @@ img
     margin: 0;
   }
 }
+
+
+@media (min-width : 768px) and (max-width : 1024px)
+{
+  .card {
+    width: 45%;
+    margin: 10px;
+    padding: 12px 0px 14px 20px;
+  }
+}

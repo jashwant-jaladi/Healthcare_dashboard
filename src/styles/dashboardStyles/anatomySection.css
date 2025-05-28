@@ -104,3 +104,42 @@
         padding: 10px;
     }
 }
+
+
+@media (min-width:430px) and (max-width : 1024px)
+{
+    .image-container
+    {
+        width: 30vw;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0, auto;
+        position: relative;
+    }
+
+    .search-icon
+    {
+        top: 20px;
+        left: 83%;
+    }
+
+    .heart
+    {
+        top: 55;
+        left: 70%;
+        font-size: small;
+        width: 40%;
+        padding: 10px;
+    }
+
+    .leg
+    {
+        top: 55;
+        right: 65%;
+        font-size: small;
+        width: 40%;
+        padding: 10px;
+    }
+}

@@ -107,3 +107,26 @@
         margin-bottom: 50px;
     }
 }
+
+@media (min-width : 768px) and (max-width : 1024px)
+{
+    .thursday-appointment,.saturday-appointment
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .thursday-1,.thursday-2,.Saturday-1,.Saturday-2
+    {
+        height: 5vh;
+    }
+   .upcoming-schedule
+   {
+    padding-top: 15px;
+   }
+   .appointment-days
+   {
+    padding: 10px 0;
+   }
+}
