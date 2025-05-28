@@ -26,3 +26,13 @@
      color: #35315F;
     font-weight: bold;
 }
+
+
+@media (max-width : 430px)
+{
+    .appointments-container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}

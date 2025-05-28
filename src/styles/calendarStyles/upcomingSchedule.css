@@ -1,32 +1,27 @@
-.thursday-appointment
-{
+.thursday-appointment {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 10px;
 }
 
-.saturday-appointment
-{
+.saturday-appointment {
     display: grid;
     grid-template-columns: repeat(2, 300px);
     padding-top: 10px;
 
 }
 
-.upcoming-header
-{
+.upcoming-header {
     font-size: large;
-    font-weight: bold ;
+    font-weight: bold;
     color: #231B4B;
 }
 
-.upcoming-schedule
-{
+.upcoming-schedule {
     padding: 50px 30px 0px 30px;
 }
 
-.appointment-days
-{
+.appointment-days {
     color: #8A8A98;
     font-size: medium;
     padding-top: 30px;
@@ -34,9 +29,8 @@
 }
 
 
-.thursday-1
-{
-    
+.thursday-1 {
+
     border-radius: 20px;
     background-color: #DDE3F8;
     width: 340px;
@@ -47,11 +41,10 @@
     padding: 10px 20px;
 }
 
-.thursday-2
-{
-     
-     width: 230px;
-     height: 8vh;
+.thursday-2 {
+
+    width: 230px;
+    height: 8vh;
     border-radius: 20px;
     background-color: #DDE3F8;
     color: #35315F;
@@ -59,27 +52,58 @@
     padding: 10px 20px;
 }
 
-.Saturday-1
-{     padding: 10px;
-     width: 230px;
-     height: 8vh;
-    border-radius: 20px;
-    background-color: #DDE3F8;
-    color: #35315F;
-    font-weight: bold;
-    padding: 10px 20px;
-}
-
-.Saturday-2
-{
+.Saturday-1 {
     padding: 10px;
-     width: 230px;
-     height: 8vh;
+    width: 230px;
+    height: 8vh;
     border-radius: 20px;
     background-color: #DDE3F8;
     color: #35315F;
     font-weight: bold;
     padding: 10px 20px;
-    
-    
+}
+
+.Saturday-2 {
+    padding: 10px;
+    width: 230px;
+    height: 8vh;
+    border-radius: 20px;
+    background-color: #DDE3F8;
+    color: #35315F;
+    font-weight: bold;
+    padding: 10px 20px;
+
+
+}
+
+
+@media (max-width : 430px) {
+    .upcoming-schedule {
+        display: flex;
+        flex-direction: column;
+    }
+    .saturday-appointment
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .thursday-appointment
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .thursday-1
+    {
+        margin: 0;
+        width: 90%;
+    }
+
+    .Saturday-2
+    {
+        margin-bottom: 50px;
+    }
 }
